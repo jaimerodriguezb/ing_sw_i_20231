@@ -14,4 +14,7 @@ class Command:
         '''
         raise Exception('Overwrite this one pls')
 
+class Suma(Command):
 
+    def execute(self):
+        return self.a + self.b
