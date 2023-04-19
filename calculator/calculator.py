@@ -18,3 +18,8 @@ class Suma(Command):
 
     def execute(self):
         return self.a + self.b
+    
+class multiplicacion(Command):
+
+    def execute(self):
+        return self.a * self.b
