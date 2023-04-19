@@ -1,3 +1,4 @@
+import math
 
 class Command:
     '''
@@ -18,3 +19,8 @@ class Suma(Command):
 
     def execute(self):
         return self.a + self.b
+
+class RaizEnesima(Command):
+
+    def execute(self):
+        return math.pow(self.a, 1/self.b)
